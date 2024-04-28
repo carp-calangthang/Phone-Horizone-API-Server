@@ -6,7 +6,7 @@ Mobile application for selling phones: Phone Horizone.
 
 ## Technologies used:
 
-- Frontend: React Native built on the Expo platform.
+- Frontend: React Native build on the Expo platform.
 - Backend: Node.js with Express library.
 - Database: MongoDB.
 
