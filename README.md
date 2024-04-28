@@ -34,7 +34,7 @@ POST /api/users/register
 #### Get all products
 
 ```http
-GET api/product/
+GET /api/product/
 ```
 
 | Parameter | Type     | Description                |
@@ -44,7 +44,7 @@ GET api/product/
 #### Get detail product
 
 ```http
-GET api/product/find/:id
+GET /api/product/find/:id
 ```
 
 | Parameter | Type     | Description                       |
@@ -54,7 +54,7 @@ GET api/product/find/:id
 #### Create new product
 
 ```http
-POST api/product/upload
+POST /api/product/upload
 ```
 
 | Body | Type     | Description                       |
@@ -67,7 +67,7 @@ POST api/product/upload
 #### Delete Product
 
 ```http
-DELETE api/product/delete/
+DELETE /api/product/delete/
 ```
 
 | Parameter | Type     | Description                       |
@@ -77,7 +77,7 @@ DELETE api/product/delete/
 #### Update product
 
 ```http
-PATCH api/product/update/:id
+PATCH /api/product/update/:id
 ```
 
 | Parameter | Type     | Description                       |
@@ -93,7 +93,7 @@ PATCH api/product/update/:id
 
 #### Current User (For check authorization)
 ```http
-GET api/users/current
+GET /api/users/current
 ```
 | Parameter | Type     | Description                       |
 | :-------- | :------- | :-------------------------------- |
@@ -101,7 +101,7 @@ GET api/users/current
 
 #### Login
 ```http
-POST api/users/login
+POST /api/users/login
 ```
 | Parameter | Type     | Description                       |
 | :-------- | :------- | :-------------------------------- |
@@ -110,7 +110,7 @@ POST api/users/login
 
 #### Register
 ```http
-POST api/users/register
+POST /api/users/register
 ```
 | Parameter | Type     | Description                       |
 | :-------- | :------- | :-------------------------------- |
@@ -124,7 +124,7 @@ POST api/users/register
 
 #### Show cart of user
 ```http
-POST api/cart/
+POST /api/cart/
 ```
 | Parameter | Type     | Description                       |
 | :-------- | :------- | :-------------------------------- |
@@ -132,7 +132,7 @@ POST api/cart/
 
 #### Add to cart 
 ```http
-POST api/cart/add
+POST /api/cart/add
 ```
 | Parameter | Type     | Description                       |
 | :-------- | :------- | :-------------------------------- |
@@ -142,7 +142,7 @@ POST api/cart/add
 
 #### Remove from cart
 ```http
-POST api/cart/remove
+POST /api/cart/remove
 ```
 | Parameter | Type     | Description                       |
 | :-------- | :------- | :-------------------------------- |
