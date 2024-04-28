@@ -1,6 +1,32 @@
-# Phone-Horizone-API-Server
-API server for Phone Horizone mobile app
+# Phone Horizone
 
+## Description
+
+Mobile application for selling phones: Phone Horizone.
+
+## Technologies used:
+
+- Frontend: React Native built on the Expo platform.
+- Backend: Node.js with Express library.
+- Database: MongoDB.
+
+## Installation Guide
+
+- Install Node.js (Application version: 20.11.0) - <a href="https://nodejs.org/en/download/current">Install</a>
+- Install required packages: npm install
+- Install MongoDB:
+- Download MongoDB Compact: <a href="https://www.mongodb.com/try/download/community">Install</a>
+
+## Running the Application
+- Open terminal and run command: npm start
+
+## Accounts
+- Create a new account by opening the application and registering.
+- Alternatively, you can use the following API to register:
+```http
+POST /api/users/register
+```
+<hr>
 ## API Reference
 
 ### Product
