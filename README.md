@@ -27,6 +27,7 @@ Mobile application for selling phones: Phone Horizone.
 POST /api/users/register
 ```
 <hr>
+
 ## API Reference
 
 ### Product
